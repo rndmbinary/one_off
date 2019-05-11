@@ -1,4 +1,4 @@
-uthor:  Tyron Howard
+Author:  Tyron Howard
 Last Modified:  28 Mar 2018
 Version:  2.3
 Description:  Deletes current Chrome/IE Bookmarks and replaces with latest bookmarks specified in this folder.
