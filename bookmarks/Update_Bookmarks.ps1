@@ -4,7 +4,6 @@ Name: Update_Bookmarks
 Last Modified:  28 Mar 2018
 Version:  1.0 (Super Lazy Code Edition)
 Description: For Bookmark Administrators to copy from their local browswers to an archived file.
-Credits: Inspired by Glenn Brown and updates by Benjamin Bradshaw
 SHA256: 827F5E57E180FA6CC5002ABBBD19693DD1515BAA5D37676465759305D9F495B0
 #>
 
