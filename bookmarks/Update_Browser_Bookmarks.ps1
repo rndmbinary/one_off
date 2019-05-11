@@ -2,7 +2,6 @@ uthor:  Tyron Howard
 Last Modified:  28 Mar 2018
 Version:  2.3
 Description:  Deletes current Chrome/IE Bookmarks and replaces with latest bookmarks specified in this folder.
-Credits: Inspired by Glenn Brown and updates by Benjamin Bradshaw.
 SHA256: FAACF0F3AE14DC538054CA1AC094EEB2917E4D0B98FFB9CFBC1D9550D56C7164
 #>
 $date = (Get-Date -Format "yyyy-MM-dd-hh-mm")
