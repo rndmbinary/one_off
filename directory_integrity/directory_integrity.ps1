@@ -21,8 +21,8 @@ $output_errors = ".\" + $timestamp + "-di-errors.csv"
 $outputLongFileNames = ".\" + $timestamp  + "-di-filenames.csv"
 $output_agedFiles = ".\" + $timestamp + "-di-agedfiles.csv"
 $output_size = ".\" + $timestamp + "-di-size.txt"
-$output_location = "\\disanet\dgoc\NetAssurance\TOOLS\directory_integrity\journal"
-$directory_current = "\\disanet\dgoc\NetAssurance"
+$output_location = "\\network_share\journal"
+$directory_current = "\\network_share\"
 $directory_list = Get-ChildItem $directory_current -Recurse -ErrorVariable +e -ErrorAction SilentlyContinue `
                   | Select Name,Length,Mode,CreationTime,LastWriteTime,LastAccessTime,FullName,@{N="PSParentPath";E={$_.PSParentPath -replace '.+\:\:',''}}
 
@@ -121,7 +121,7 @@ function create_magic_message() {
 
 #    $mail.Attachments.Add("$output_results")
     
-    $mail.Subject = "DGOC-NA Network Share Information $timestamp"  
+    $mail.Subject = "Network Share Information $timestamp"  
     $mail.Body = directory_size
                  
 #    $mail.Save()
